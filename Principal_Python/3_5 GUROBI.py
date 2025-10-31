@@ -1,4 +1,3 @@
-"""@author: rodrigosalort"""
 
 from gurobipy import *
 
