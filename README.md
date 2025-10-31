@@ -1,30 +1,30 @@
-# Optimización Financiera con Programación Lineal (Python & Gurobi)
+# Financial Optimization with Linear Programming (Python & Gurobi)
 
-Este proyecto aplica técnicas de optimización mediante Programación Lineal (LP) para resolver problemas complejos de planificación financiera y gestión de carteras, desarrollados durante el Máster en Banca y Finanzas Cuantitativas.
+This project applies Linear Programming (LP) optimization techniques to solve complex problems in financial planning and portfolio management, developed as part of the M.Sc. in Quantitative Banking and Finance.
 
 ---
-### 📄 Documentos Clave del Proyecto
-* **[Ver el Trabajo Final (PDF)](Docs/Assignment.pdf)**
-* **[Ver el Enunciado del Problema (PDF)](Docs/Statement.pdf)**
+### 📄 Key Project Documents
+* **[View Final Assignment (PDF)](Docs/Assignment.pdf)**
+* **[View Problem Statement (PDF)](Docs/Statement.pdf)**
 ---
 
-## Objetivos del Proyecto
+## Project Objectives
 
-El repositorio incluye modelos para:
+The repository includes models for:
 
-1.  [cite_start]**Planificación Financiera (Gestión de Tesorería):** Maximizar la riqueza de una empresa al final de un horizonte de 2 años (8 trimestres) [cite: 37-38]. [cite_start]El modelo optimiza las decisiones de endeudamiento (préstamos a 2 años, 6 meses y trimestrales) e inversión de excedentes para cubrir las necesidades de flujo de caja de cada trimestre [cite: 42-43, 45, 47, 49].
-2.  [cite_start]**Gestión de Cartera de Bonos (Gestor):** Maximizar el rendimiento de un portafolio de bonos, sujeto a restricciones de calificación crediticia (riesgo) y vencimiento promedio de la cartera [cite: 219, 224-227].
-3.  [cite_start]**Inmunización de Pasivos (Fondo de Pensiones):** Minimizar el coste de una cartera de bonos dedicada a financiar las obligaciones de un fondo de pensiones para los próximos 9 años [cite: 258-260].
+1.  **Financial Planning (Cash Flow Management):** Maximizing a company's wealth at the end of a 2-year (8-quarter) horizon. The model optimizes borrowing decisions (2-year, 6-month, and quarterly loans) and the investment of surplus funds to meet cash flow requirements in each quarter.
+2.  **Bond Portfolio Management (Manager):** Maximizing the return of a bond portfolio, subject to constraints on average credit rating (risk) and portfolio maturity.
+3.  **Liability Immunization (Pension Fund):** Minimizing the cost of a bond portfolio structured to fund a pension fund's liabilities over the next 9 years.
 
-## Metodología y Herramientas
+## Methodology & Tools
 
-* [cite_start]**Lenguaje:** Python [cite: 24, 338]
-* [cite_start]**Solver de Optimización:** `gurobipy` (Gurobi) [cite: 21, 25, 338]
-* [cite_start]**Análisis de Datos:** `pandas` [cite: 25, 338]
+* **Language:** Python
+* **Optimization Solver:** `gurobipy` (Gurobi)
+* **Data Analysis:** `pandas`
 
-## Análisis Clave Realizados
+## Key Analyses Performed
 
-[cite_start]Aparte de la optimización, se realiza un **Análisis de Sensibilidad** (post-optimalidad)[cite: 30, 103]:
+In addition to optimization, a full **Sensitivity Analysis** (post-optimality) was conducted:
 
-* [cite_start]**Precios Sombra (Shadow Prices):** Se interpretan para entender cómo cambiaría la riqueza final (función objetivo) si se relajan las restricciones (ej. si la necesidad de capital en un trimestre disminuye) [cite: 108-109, 112].
-* [cite_start]**Costes Reducidos (Reduced Costs):** Se analizan para determinar cuánto tendría que cambiar el precio de un bono (que no está en la cartera óptima) para que sea atractivo incluirlo[cite: 315, 328].
+* **Shadow Prices:** Interpreted to understand how the final objective (wealth) would be impacted by relaxing certain constraints (e.g., a reduced capital requirement in a given quarter).
+* **Reduced Costs:** Analyzed to determine how much the price of an out-of-portfolio bond would need to change to be included in the optimal solution.
