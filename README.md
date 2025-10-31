@@ -2,6 +2,12 @@
 
 Este proyecto aplica técnicas de optimización mediante Programación Lineal (LP) para resolver problemas complejos de planificación financiera y gestión de carteras, desarrollados durante el Máster en Banca y Finanzas Cuantitativas.
 
+---
+### 📄 Documentos Clave del Proyecto
+* **[Ver el Trabajo Final (PDF)](Docs/Assignment.pdf)**
+* **[Ver el Enunciado del Problema (PDF)](Docs/Statement.pdf)**
+---
+
 ## Objetivos del Proyecto
 
 El repositorio incluye modelos para:
