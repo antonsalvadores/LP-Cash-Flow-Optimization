@@ -1,6 +1,6 @@
 # Financial Optimization with Linear Programming
 
-This project applies Linear Programming (LP) optimization techniques to solve complex problems in financial planning and portfolio management, developed as part of the M.Sc. in Quantitative Banking and Finance.
+This project, developed during my first year of the M.Sc. in Quantitative Banking and Finance, applies Linear Programming (LP) optimization techniques to solve complex problems in financial planning and portfolio management
 
 ---
 ### 📄 Key Project Documents
@@ -28,3 +28,5 @@ In addition to optimization, a full **Sensitivity Analysis** (post-optimality) w
 
 * **Shadow Prices:** Interpreted to understand how the final objective (wealth) would be impacted by relaxing certain constraints (e.g., a reduced capital requirement in a given quarter).
 * **Reduced Costs:** Analyzed to determine how much the price of an out-of-portfolio bond would need to change to be included in the optimal solution.
+
+*Problems adapted from the textbook "Optimization Methods in Finance" by Gerard Cornuejols and Reha Tütüncü.*
