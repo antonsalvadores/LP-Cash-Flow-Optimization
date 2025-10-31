@@ -1,4 +1,4 @@
-# Financial Optimization with Linear Programming (Python & Gurobi)
+# Financial Optimization with Linear Programming
 
 This project applies Linear Programming (LP) optimization techniques to solve complex problems in financial planning and portfolio management, developed as part of the M.Sc. in Quantitative Banking and Finance.
 
