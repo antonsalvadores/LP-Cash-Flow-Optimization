@@ -1,1 +1,1 @@
-# LP-Cash-Flow-Optimization
+In this project, we try to solve three different problems, using linear programming. These problems are focused on maximizing the wealth of a company at the end of a period, which is facing short term financing problems. The third problem is about minimizing the cost of a bond portfolio for a small pension fund.
